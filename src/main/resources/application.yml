@@ -19,10 +19,6 @@ spring:
 #  batch:
 #    job:
 #      names: ${job.name:NONE}
-
-logging.level:
-  org.springframework:
-
 ---
 spring:
   config:
@@ -53,8 +49,8 @@ spring:
   datasource:
     hikari:
       jdbc-url: jdbc:mysql://localhost:3306/spring_batch?serverTimezone=UTC
-      username: dolphago
-      password: 1q2w3e4r
+      username: root
+      password:
       driver-class-name: com.mysql.cj.jdbc.Driver
 
 ---
