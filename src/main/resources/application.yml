@@ -30,7 +30,7 @@ spring:
     show-sql: true
   datasource:
     hikari:
-      jdbc-url: jdbc:h2:mem:jojoldu;MODE=MYSQL
+      jdbc-url: jdbc:h2:mem:testdb;MODE=MYSQL
       username: sa
       password:
       driver-class-name: org.h2.Driver
