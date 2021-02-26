@@ -1,4 +1,4 @@
-package me.dolphago.job;
+package me.dolphago.job.tasklet;
 
 import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.configuration.annotation.StepScope;
